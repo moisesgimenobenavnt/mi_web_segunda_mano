@@ -1,0 +1,80 @@
+/* ------------------------------------- */
+/* 1. Estilos Globales y Tipografía */
+/* ------------------------------------- */
+
+/* Esto aplica a toda la página: una fuente limpia y elimina márgenes extra */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris muy claro para destacar los artículos */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* ------------------------------------- */
+/* 2. Estilos del Encabezado (Header) */
+/* ------------------------------------- */
+
+header {
+    background-color: #35424a; /* Fondo azul oscuro o gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #e8491d; /* Línea naranja para resaltar */
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* ------------------------------------- */
+/* 3. Estilos de la Galería de Artículos */
+/* ------------------------------------- */
+
+#galeria-articulos {
+    width: 90%;
+    max-width: 1200px; /* Ancho máximo para que se vea bien en pantallas grandes */
+    margin: auto; /* Centra la galería */
+    padding: 20px 0;
+}
+
+.articulo-venta {
+    background: #ffffff; /* Fondo blanco para cada artículo */
+    padding: 20px;
+    margin-bottom: 25px; /* Espacio entre artículos */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para que destaque */
+}
+
+.articulo-venta h2, .articulo-venta h3 {
+    color: #e8491d; /* Títulos de color naranja */
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+
+/* Estilo para las imágenes */
+.articulo-venta img {
+    max-width: 100%; /* La imagen nunca será más grande que el contenedor */
+    height: auto;
+    display: block; /* Para centrarla o manejarla mejor */
+    margin: 15px auto; /* Centra la imagen */
+    border-radius: 4px;
+}
+
+/* Estilo para el botón de llamar */
+.articulo-venta a {
+    display: inline-block;
+    background-color: #35424a; /* Fondo azul oscuro */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none; /* Elimina la línea debajo del enlace */
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
